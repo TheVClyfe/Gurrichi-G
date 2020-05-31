@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3377694060565286222}
   - component: {fileID: 3377694060565286223}
   - component: {fileID: 522295064}
+  - component: {fileID: 1064886877}
+  - component: {fileID: 50299858500634208}
   m_Layer: 0
   m_Name: Zucchini
   m_TagString: Untagged
@@ -93,3 +95,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 2
+  projectileDamage: 50
+--- !u!60 &1064886877
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377694060565286220}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.37333333, y: 0.37333333}
+    newSize: {x: 0.56, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.18666667, y: 0.18666667}
+      - {x: -0.18666667, y: 0.086666666}
+      - {x: -0.16666667, y: 0.06666667}
+      - {x: 0.010966519, y: -0.025593186}
+      - {x: 0.079847775, y: -0.13411112}
+      - {x: 0.093333334, y: -0.18666667}
+      - {x: 0.18666667, y: -0.18666667}
+      - {x: 0.18666667, y: -0.053333335}
+      - {x: 0.13476865, y: 0.022745512}
+      - {x: -0.01790011, y: 0.15105012}
+      - {x: -0.068796106, y: 0.17355493}
+--- !u!50 &50299858500634208
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377694060565286220}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
