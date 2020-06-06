@@ -11,10 +11,12 @@ public class Health : MonoBehaviour
     public void DealDamage(float damage)
     {
         health -= damage;
+        Debug.Log("Health is now: " + health.ToString());
         if(health <= 0)
         {
+            Debug.Log("Gameobject destroy!");
             TriggerDeathVFX();
-            Destroy(gameObject);
+            Destroy(gameObject);            
         }
     }
 

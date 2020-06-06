@@ -19,6 +19,7 @@ public class AttackerSpawner : MonoBehaviour
 
     private void SpawnAttacker()
     {
+        Debug.Log("Spawning at: " + transform.position);
         Instantiate(attackerPrefab, transform.position, transform.rotation);
     }
 
