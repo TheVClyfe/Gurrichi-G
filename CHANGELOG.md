@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] 
 GG-14: Added options menu.  
+Added Volume Control.  
 GG-13: Added losing condition, added Lives Display script and UI  
 Added LevelController. Stopped game when all attackers are dead.  
 Added Level Complete and Lost Screens, fixed errors.  
