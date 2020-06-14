@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased] 
 GG-13: Added losing condition, added Lives Display script and UI  
 Added LevelController. Stopped game when all attackers are dead.  
+Added Level Complete and Lost Screens, fixed errors.  
 GG-12: Added Fox with its own animations  
 GG-11: Added Lizard Attacking Animation, made it attack and Added Custom attacker script.  
 GG-10: Instantiate within a parent. Added Axe, Gnome, Gravestone. Made shooting happen only in lane - animation transition with params!  
