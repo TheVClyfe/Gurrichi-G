@@ -8,7 +8,6 @@ public class DefenderSpawner : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("Mouse was clicked!");
         AttemptToPlaceDefenderAt(GetSquareClicked());
     }
 
