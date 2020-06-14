@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased] 
+GG-14: Added options menu.  
 GG-13: Added losing condition, added Lives Display script and UI  
 Added LevelController. Stopped game when all attackers are dead.  
 Added Level Complete and Lost Screens, fixed errors.  
